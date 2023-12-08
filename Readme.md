@@ -33,7 +33,11 @@ UniMedicalEval数据集的分布格式如下：
 
 **饼状分布图**
 
-待添加
+<p align="center">
+  <img src=class/data1.png width=300px/>  <img src=class/data2.png width=300px/>
+</p>
+
+
 
 -数据分析：待添加
 
