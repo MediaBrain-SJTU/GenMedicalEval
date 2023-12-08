@@ -181,7 +181,7 @@ UniMedicalEval的评测方式分为选择题评测和生成式评测两种。选
 
 ```latex
 @misc{UniMedicalEval,
-  author={Ya Zhang,Yu Wang,Lin Lin Wang},
+  author={Ya Zhang,Yu Wang,Linlin Wang},
   title = {中文医疗评测基准：UniMedicalEval},
   year = {2023},
   publisher = {GitHub},
