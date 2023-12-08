@@ -64,12 +64,20 @@ UniMedicalEval的评测方式包括选择题和生成式评测两种，涵盖了
 
 在线问诊，[医疗反事实](https://github.com/MediaBrain-SJTU/UniCMedEval/blob/main/class/%E5%8C%BB%E7%96%97%E5%8F%8D%E4%BA%8B%E5%AE%9E.md)，毒害伦理
 
-**分析与总结**
+# 评测结果与结论
 🥇 Leaderboard 
 
-Please Check [Leaderboard](https://github.com/MediaBrain-SJTU/UniCMedEval/blob/main/class/leaderboard.md).
+请查看[Leaderboard](https://github.com/MediaBrain-SJTU/UniCMedEval/blob/main/class/leaderboard.md).
 
-待添加
+实验结论
+
+-综合来看，GPT-4仍然是最强大的通用模型，但是在有的场景下表现会劣于Huatuo2-13B和文心一言
+
+-文心一言和GPT-4达到了相近的性能，在大部分场景中都有不错的性能
+
+-Huatuo2-13B是性能非常优异的领域小模型，超过了通义千问和星火大模型的表现，在部分场景下能达到与GPT-4接近的性能
+
+-有的模型在处理如医疗反事实等场景时表现不佳，容易出现过于自信的现象而回答所有问题，无论问题本身是否可以回答。
 
 
 **六维度雷达图**
