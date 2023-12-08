@@ -46,11 +46,11 @@ UniMedicalEval的评测方式包括选择题和生成式评测两种，涵盖了
 
 **任务二：知识问答**
 
-疾病介绍，手术咨询，[基础医疗问答](https://github.com/MediaBrain-SJTU/UniCMedEval/blob/main/class/%E5%9F%BA%E7%A1%80%E5%8C%BB%E7%96%97%E9%97%AE%E7%AD%94.md)
+疾病介绍，手术咨询，[基础医疗问答](class/基础医疗问答.md)
 
 **任务三：报告解读**
 
-异常解读，化验项目选择，[报告诊断](https://github.com/MediaBrain-SJTU/UniCMedEval/blob/main/class/diseasecheck.md)，[检查推荐](class/检查推荐.md)，[治疗咨询](https://github.com/MediaBrain-SJTU/UniCMedEval/blob/main/class/%E6%B2%BB%E7%96%97%E5%92%A8%E8%AF%A2.md)
+异常解读，化验项目选择，[报告诊断](class/diseasecheck.md)，[检查推荐](class/检查推荐.md)，[治疗咨询](class/治疗咨询.md)
 
 **任务四：信息整合**
 
@@ -62,12 +62,13 @@ UniMedicalEval的评测方式包括选择题和生成式评测两种，涵盖了
 
 **任务六：情景对话**
 
-在线问诊，[医疗反事实](https://github.com/MediaBrain-SJTU/UniCMedEval/blob/main/class/%E5%8C%BB%E7%96%97%E5%8F%8D%E4%BA%8B%E5%AE%9E.md)，毒害伦理
+在线问诊，[医疗反事实](class/医疗反事实.md)，毒害伦理
 
-# 评测结果与结论
-🥇 Leaderboard 
 
-请查看[Leaderboard](https://github.com/MediaBrain-SJTU/UniCMedEval/blob/main/class/leaderboard.md).
+**🥇 Leaderboard**
+
+请查看 [Leaderboard](class/leaderboard.md).
+
 
 实验结论
 
