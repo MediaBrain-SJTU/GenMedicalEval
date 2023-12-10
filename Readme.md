@@ -37,7 +37,7 @@ UniMedicalEval数据集的分布格式如下：
 **1.2.1 数据分布**
 
 <p align="center">
-  <img src=class/data3.png width=900px/>  
+  <img src=class/data4.pdf width=900px/>  
 </p>
 
 
