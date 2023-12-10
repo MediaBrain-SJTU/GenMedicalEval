@@ -1,10 +1,10 @@
 
 # UniMedicalEval
-我们提出了一个中文的大规模医疗评测框架，具有以下三大特点：
+我们提出了一个中文的医疗大模型评测框架，具有以下三大特点：
 
-**庞大丰富的数据规模**：我们构建了一个宏大且多元的评测框架，扩展至超过**100,000**多的数据点，涵盖细分的能力如深度知识理解、高级推理、综合总结、关键信息提取、系统安全性以及模型鲁棒性，确保对医疗大模型的综合性能进行深入评估。
+**庞大丰富的数据种类**：我们构建了一个宏大且多元的评测框架，扩展至超过**100,000**多的数据点，涵盖细分的能力如深度知识理解、高级推理、综合总结、关键信息提取、系统安全性以及模型鲁棒性，确保对医疗大模型的综合性能进行深入评估。
 
-**真实可靠的数据质量**：我们采用超过**55,000**例真实病例数据，搭建了一个得到医疗专家共识的评估体系，包括**6**大医疗领域的任务和**20**种精细化医疗情境，确保评估的真实性与多样性，并深入探索模型在实际医疗应用中的性能。
+**真实可靠的数据来源**：我们采用超过**55,000**例真实病例数据，搭建了一个得到医疗专家共识的评估体系，包括**6**大医疗领域的任务和**20**种精细化医疗情境，确保评估的真实性与多样性，并深入探索模型在实际医疗应用中的性能。
 
 **多源异构的数据格式**：我们的框架整合了包括病历记录、检验报告、医嘱、手术记录等在内的广泛异构文本数据，这些多样的数据源将检验模型处理各类复杂医疗信息的能力，为其在实际医疗场景中的应用能力提供精准的反馈。
 
@@ -37,7 +37,7 @@ UniMedicalEval数据集的分布格式如下：
 **1.2.1 数据分布**
 
 <p align="center">
-  <img src=class/data1.png width=300px/>  <img src=class/data2.png width=300px/>
+  <img src=class/data3.png width=900px/>  
 </p>
 
 
@@ -177,4 +177,10 @@ UniMedicalEval的评测方式分为选择题评测和生成式评测两种。选
 
 ## 引用
 
-
+@misc{MedEvalHub,
+  author={Yan Cai, Linlin Wang,Ye Wang, Gerard de Melo, Ya Zhang, Yan-Feng Wang, Liang He}, 
+  title = {MedEvalHub: A Large-Scale Chinese Benchmark for Evaluating Medical Large Language Models,
+  year = {2024},
+  publisher = {AAAI},
+  journal = {Proceedings of Thirty-Eighth AAAI Conference on Artificial Intelligence(AAAI-2024)},
+}
