@@ -166,7 +166,7 @@ UniMedicalEval的评测方式分为选择题评测和生成式评测两种。选
 
 ## 🪶贡献
 
-本项目由上海交通大学未来媒体网络协同创新中心、华东师范大学和上海人工智能实验室智慧医疗中心合作研发。指导教师为[张娅](https://mediabrain.sjtu.edu.cn/yazhang/)教授、[王钰](https://mediabrain.sjtu.edu.cn/yuwang/)副教授、[王琳琳](https://faculty.ecnu.edu.cn/_s16/wll/main.psp)博导。
+本项目由上海人工智能实验室、上海交通大学和华东师范大学合作完成。联合研发团队由王延峰教授领衔，成员包括[张娅](https://mediabrain.sjtu.edu.cn/yazhang/)教授、[王钰](https://mediabrain.sjtu.edu.cn/yuwang/)副教授、[王琳琳](https://faculty.ecnu.edu.cn/_s16/wll/main.psp)博导等。
 
 
 
@@ -177,16 +177,4 @@ UniMedicalEval的评测方式分为选择题评测和生成式评测两种。选
 
 ## 引用
 
-如果你使用了本项目的数据或者代码，请声明引用
-
-```latex
-@misc{UniMedicalEval,
-  author={Ya Zhang,Yu Wang,Linlin Wang},
-  title = {中文医疗评测基准：UniMedicalEval},
-  year = {2023},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{[https://github.com/MediaBrain-SJTU/MING](https://github.com/MediaBrain-SJTU/UniMedicalEval)}},
-}
-```
 
