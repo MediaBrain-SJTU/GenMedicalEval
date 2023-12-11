@@ -10,7 +10,7 @@
 
 ## 1：数据集
 
-### 1.1 数据集生成Pipeline
+## 1.1 数据集生成Pipeline
 
 <p align="center">
   <img src=class/pipeline.png width=600px/>
@@ -31,10 +31,10 @@
 
 
 
-### 1.2 数据集信息介绍
+## 1.2 数据集信息介绍
 UniMedicalEval数据集的分布格式如下：
 
-**1.2.1 数据分布**
+##  1.2.1 数据分布
 
 <p align="center">
   <img src=class/data4.png width=900px/>  
@@ -69,7 +69,7 @@ UniMedicalEval数据集的分布格式如下：
 
 
 
-**1.2.2 细分医疗场景介绍**
+## 1.2.2 细分医疗场景介绍
 
 我们在下面详细介绍了我们的六大维度与二十种细分医疗场景。在每个细分场景的超链接中我们给出了数据集示例和介绍。
 
@@ -102,7 +102,7 @@ UniMedicalEval数据集的分布格式如下：
 UniMedicalEval的评测方式分为选择题评测和生成式评测两种。选择题评测的内容如下：
 
 
-### 2.1. 选择题评测
+## 2.1. 选择题评测
 
 **🥇 Leaderboard**
 
@@ -133,7 +133,7 @@ UniMedicalEval的评测方式分为选择题评测和生成式评测两种。选
 
 
 
-### 2.2 生成式评测
+## 2.2 生成式评测
 
 我们收集了[手术操作](https://github.com/MediaBrain-SJTU/UniCMedEval/blob/main/%E6%89%8B%E6%9C%AF%E6%93%8D%E4%BD%9C%E6%9C%AF%E8%AF%AD.xlsx)，[疾病诊断](https://github.com/MediaBrain-SJTU/UniCMedEval/blob/main/%E7%96%BE%E7%97%85%E8%AF%8A%E6%96%AD%E6%9C%AF%E8%AF%AD.xlsx)，[医疗操作](https://github.com/MediaBrain-SJTU/UniCMedEval/blob/main/%E5%8C%BB%E7%96%97%E6%93%8D%E4%BD%9C%E6%9C%AF%E8%AF%AD.xlsx)三个术语库以进行我们的生成式评测。
 
@@ -166,7 +166,7 @@ UniMedicalEval的评测方式分为选择题评测和生成式评测两种。选
 
 ## 🪶贡献
 
-本项目由上海人工智能实验室、上海交通大学和华东师范大学合作完成。联合研发团队由王延峰教授领衔，成员包括[张娅](https://mediabrain.sjtu.edu.cn/yazhang/)教授、[王钰](https://mediabrain.sjtu.edu.cn/yuwang/)副教授、[王琳琳](https://faculty.ecnu.edu.cn/_s16/wll/main.psp)博导，李然，贺樑，欧阳泽田，邱易帅，蔡琰，张燮驰，杨宇辰，廖育生，郭逸秋等。与本项目相关的论文有(https://arxiv.org/pdf/2309.02077v1.pdf)。
+本项目由上海人工智能实验室、上海交通大学和华东师范大学合作完成。联合研发团队由王延峰教授领衔，成员包括[张娅](https://mediabrain.sjtu.edu.cn/yazhang/)教授、[王钰](https://mediabrain.sjtu.edu.cn/yuwang/)副教授、[王琳琳](https://faculty.ecnu.edu.cn/_s16/wll/main.psp)研究员，李然，贺樑，欧阳泽田，邱易帅，蔡琰，张燮驰，杨宇辰，廖育生，郭逸秋等。与本项目相关的论文有(https://arxiv.org/pdf/2309.02077v1.pdf)。
 
 
 
