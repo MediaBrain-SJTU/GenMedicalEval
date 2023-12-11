@@ -166,7 +166,7 @@ UniMedicalEval的评测方式分为选择题评测和生成式评测两种。选
 
 ## 🪶贡献
 
-本项目由上海人工智能实验室、上海交通大学和华东师范大学合作完成。联合研发团队由王延峰教授领衔，成员包括[张娅](https://mediabrain.sjtu.edu.cn/yazhang/)教授、[王钰](https://mediabrain.sjtu.edu.cn/yuwang/)副教授、[王琳琳](https://faculty.ecnu.edu.cn/_s16/wll/main.psp)博导，李然，贺樑，欧阳泽田，邱易帅，蔡琰，张燮驰，杨宇辰，廖育生，郭逸秋等。
+本项目由上海人工智能实验室、上海交通大学和华东师范大学合作完成。联合研发团队由王延峰教授领衔，成员包括[张娅](https://mediabrain.sjtu.edu.cn/yazhang/)教授、[王钰](https://mediabrain.sjtu.edu.cn/yuwang/)副教授、[王琳琳](https://faculty.ecnu.edu.cn/_s16/wll/main.psp)博导，李然，贺樑，欧阳泽田，邱易帅，蔡琰，张燮驰，杨宇辰，廖育生，郭逸秋等。与本项目相关的论文有(https://arxiv.org/pdf/2309.02077v1.pdf)。
 
 
 
