@@ -111,7 +111,22 @@
 
 ## 4.1. 选择判断题
 
-评测指标：
+与开放式问题不同，选择题和判断题的答案存在于有限可数集合。在UniMedicalEval中，我们设计了严格的回复模板，只有大语言模型的回复精准匹配了这个模板才被评估为正确。
+具体的评测prompt和回复模板如下（以单选题为示例）：
+
+```
+{ "Prompt": [n-shot demo, n is 0 for the zero-shot case],
+    <User>：请基于病人的症状/化验报告单/检查报告/重要会诊结论回答以下问题，问题是：
+    {题目}。从下列选项中选出唯一一个正确的答案：
+    A. {选项A}
+    B. {选项B}
+    ...
+    <Model>：正确答案是：
+},
+```
+
+
+**评测数据与结论**
 
 **🥇 Leaderboard**
 
@@ -127,7 +142,7 @@
 |Baichuan-chat-13B|0.27|0.24|0.63|0.32|0.29|--|0.48|--|--|--|
 |InternLM-7B|0.25|0.22|0.15|0.07|0.18|--|0.47|--|--|--|
 
-实验结论
+**实验结论**
 
 -综合来看，GPT-4仍然是最强大的通用模型，但是在有的场景下表现会劣于Huatuo2-13B和文心一言
 
@@ -144,9 +159,11 @@
 
 ## 4.2 生成式评测
 
-我们收集了[手术操作](https://github.com/MediaBrain-SJTU/UniCMedEval/blob/main/%E6%89%8B%E6%9C%AF%E6%93%8D%E4%BD%9C%E6%9C%AF%E8%AF%AD.xlsx)，[疾病诊断](https://github.com/MediaBrain-SJTU/UniCMedEval/blob/main/%E7%96%BE%E7%97%85%E8%AF%8A%E6%96%AD%E6%9C%AF%E8%AF%AD.xlsx)，[医疗操作](https://github.com/MediaBrain-SJTU/UniCMedEval/blob/main/%E5%8C%BB%E7%96%97%E6%93%8D%E4%BD%9C%E6%9C%AF%E8%AF%AD.xlsx)三个术语库以进行我们的生成式评测。
+由于大语言模型的回复往往是复杂的一般文本，并不遵从一种固定的格式。对于这种更一般的自然文本格式的大语言模型的回复，我们提出了一种基于结构化回复抽取和医学术语对齐的生成式评测方法来评测模型的能力。
 
-我们的生成式评测分为结构化回复抽取和术语对齐两个部分。
+此外，为了进行医学术语对齐，我们收集了[手术操作](https://github.com/MediaBrain-SJTU/UniCMedEval/blob/main/%E6%89%8B%E6%9C%AF%E6%93%8D%E4%BD%9C%E6%9C%AF%E8%AF%AD.xlsx)，[疾病诊断](https://github.com/MediaBrain-SJTU/UniCMedEval/blob/main/%E7%96%BE%E7%97%85%E8%AF%8A%E6%96%AD%E6%9C%AF%E8%AF%AD.xlsx)，[医疗操作](https://github.com/MediaBrain-SJTU/UniCMedEval/blob/main/%E5%8C%BB%E7%96%97%E6%93%8D%E4%BD%9C%E6%9C%AF%E8%AF%AD.xlsx)三个术语库，这三个术语库可以涵盖绝大多数包括疾病、治疗、检查在内的医学术语。
+
+我们的生成式评测分为结构化回复抽取和术语对齐两个部分。将在下面详细介绍：
 
 ### 结构化回复抽取
 
@@ -170,10 +187,26 @@
 - 3.基于2.中映射后的结果计算生成式评测指标。
 
 
-### 生成式评测指标
-- Precision：结构化回复中字典的key与GT的key计算precision
-- Recall：结构化回复中字典的key与GT的key计算Recall
-- Bert score：结构化回复中字典的value与术语库对齐后与GT计算Bert score
+**评测数据与结论**
+
+**🥇 Leaderboard**
+
+对于生成式评测，我们定义了三种评测指标，分别为：
+
+- Precision：结构化回复中字典的key与GT的key计算precision，表明大语言模型的回复中存在的逻辑点的准确率
+- Recall：结构化回复中字典的key与GT的key计算Recall，表明大语言模型的回复中存在的逻辑点的召回率
+- Bert score：结构化回复中字典的value与术语库对齐后与GT计算Bert score，表明大语言模型的回复中存在的知识点相对于答案的覆盖程度
+
+更多结果请查看 [Leaderboard](class/leaderboard2.md).
+
+
+## 4.3 大模型打分
+
+一般来说，对于大语言模型的回复，可以从流畅性，完整性，科学性，相关性的方面利用GPT-4进行打分。但是使用GPT-4打分会导致潜在的数据泄露问题，为了避免这种数据泄露问题，UniMedicalEval基于指令微调训练了一个开源的评测专用的大语言模型。
+
+
+
+
 
 
 ## 🪶贡献
