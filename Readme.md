@@ -14,7 +14,7 @@
 </p>
 
 
-## 1 基础知识能力
+## 1 基础知识能力 (待琳琳老师添加)
 为了评测医疗大语言模型的基础知识能力，我们收集了涵盖xxxxx科室，从管培考试到执医考试层层递进全面、丰富......的医学考试题。
 ### 医学考试题分布
 
@@ -51,7 +51,7 @@
 ## 2.2 场景划分与介绍
 
 <p align="center">
-  <img src=class/data4.png width=900px/>  
+  <img src=class/data_huafen.png width=900px/>  
 </p>
 
 
@@ -256,7 +256,7 @@ UniMedicalEval设计了一套标准的评测流程来评估医疗大语言模型
 更多结果请查看 [Leaderboard](class/leaderboard2.md).
 
 
-## 4.3 大模型打分
+## 4.3 大模型打分 (待琳琳老师添加)
 
 一般来说，对于大语言模型的回复，可以从流畅性，完整性，科学性，相关性的方面利用GPT-4进行打分。但是使用GPT-4打分会导致潜在的数据泄露问题，为了避免这种数据泄露问题，UniMedicalEval基于指令微调训练了一个开源的评测专用的大语言模型。
 
@@ -267,7 +267,7 @@ UniMedicalEval设计了一套标准的评测流程来评估医疗大语言模型
 
 ## 🪶贡献
 
-本项目由上海人工智能实验室、上海交通大学和华东师范大学合作完成。联合研发团队由王延峰教授领衔，成员包括[张娅](https://mediabrain.sjtu.edu.cn/yazhang/)教授、[王钰](https://mediabrain.sjtu.edu.cn/yuwang/)副教授、[王琳琳](https://faculty.ecnu.edu.cn/_s16/wll/main.psp)研究员，李然，贺樑，欧阳泽田，邱易帅，蔡琰，张燮驰，杨宇辰，廖育生，郭逸秋等。与本项目相关的论文有(https://arxiv.org/pdf/2309.02077v1.pdf)。
+本项目由上海人工智能实验室、上海交通大学和华东师范大学合作完成。联合研发团队由王延峰教授领衔，成员包括[张娅](https://mediabrain.sjtu.edu.cn/yazhang/)教授、[王钰](https://mediabrain.sjtu.edu.cn/yuwang/)副教授、[王琳琳](https://faculty.ecnu.edu.cn/_s16/wll/main.psp)研究员，何悦教授团队（李然），贺樑，欧阳泽田，邱易帅，蔡琰，张燮驰，杨宇辰，廖育生，郭逸秋等。与本项目相关的论文有(https://arxiv.org/pdf/2309.02077v1.pdf)。
 
 
 <!--
