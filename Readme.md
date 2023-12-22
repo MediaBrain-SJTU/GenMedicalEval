@@ -244,6 +244,7 @@ UniMedicalEval设计了一套标准的评测流程来评估医疗大语言模型
 
 **评测数据与结论**
 
+
 **基础知识能力**
 <p align="center">
   <img src=class/考题评测.png width=900px/>
