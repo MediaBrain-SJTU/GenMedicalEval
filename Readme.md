@@ -366,7 +366,7 @@ UniMedicalEval设计了一套标准的评测流程来评估医疗大语言模型
 由于在医学中存在同一术语的多种不同表达方式，为了更好的评测，我们通过医学术语对齐的方式来标准化模型回复和GT中的医学术语。具体流程如下：
 
 <p align="center">
-  <img src=class/术语对齐.png width=800px/>
+  <img src=class/术语对齐.png width=600px/>
 </p>
 
 - 1.基于structured_output，对于其每个key对应的value，利用分词得到多个单词。同理，对于GT也通过相同的方法，对每个key对应的value得到多个单词。
