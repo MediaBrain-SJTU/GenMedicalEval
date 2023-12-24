@@ -252,12 +252,12 @@ UniMedicalEval设计了一套标准的评测流程来评估医疗大语言模型
 
 **临床应用能力**
 <p align="center">
-  <img src=class/临床评测.png width=900px/>
+  <img src=class/临床评测.png width=800px/>
 </p>
 
 **安全规范能力**
 <p align="center">
-  <img src=class/安全评测.png width=600px/>
+  <img src=class/安全评测.png width=500px/>
 </p>
 
 
