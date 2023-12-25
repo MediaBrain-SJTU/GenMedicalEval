@@ -1,6 +1,7 @@
 
 ## 🌈 更新
 
+待更新，目前完成版本在(https://github.com/MediaBrain-SJTU/UniMedicalEval)
 
 * **[2023.12.25]** [论文](class/UniMedicalEval1.pdf)
   
