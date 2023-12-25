@@ -2,7 +2,7 @@
 ## 🌈 更新
 
 
-* **[2023.12.25]** [论文](class/UniMedicalEval1.pdf)
+* **[2023.12.25]** [论文](class/UniMedicalEval1.pdf) (Arxiv版本待审核)
   
 <!-- vscode-markdown-toc-config
 	numbering=true
