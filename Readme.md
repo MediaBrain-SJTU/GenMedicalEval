@@ -395,9 +395,10 @@ UniMedicalEval设计了一套标准的评测流程来评估医疗大语言模型
 
 为了对中文医疗大模型的开放域对话能力进行评测，我们借助自主构建的医疗知识数据库从openAI的GPT4模型中获取到了高质量的评估数据，然后将预训练医疗大模型MedLLaMA作为基座模型，利用三阶段微调与知识自省策略训练出针对医疗文本生成的评估模型。
 
+[demo](class/f6d461d38839cb17976d7a869a717a19.mp4)
 <video controls width="500">
   <source src="class/f6d461d38839cb17976d7a869a717a19.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+
 </video>
 
 
