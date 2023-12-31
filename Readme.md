@@ -212,8 +212,8 @@ GenMedicalEval从基础知识能力、临床应用能力、安全规范能力三
   journal = {Arxiv},
 }
 
-@misc{UniMedeEval,
-  author={Yuchen Yang, Yusheng Liao, Ya Zhang, Yanfeng Wang, Yu Wang}, 
+@misc{GenMedeEval,
+  author={Yuchen Yang, Yusheng Liao, Ya Zhang, Yu Wang, Yanfeng Wang}, 
   title = {GenMedicalEval: A Unified Medical Evaluation Benchmark for Chinese LLMs,
   year = {2023},
   journal = {Arxiv},
