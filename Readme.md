@@ -191,7 +191,7 @@ GenMedicalEval从基础知识能力、临床应用能力、安全规范能力三
 
 ##  6. <a name='-1'></a>🪶贡献
 
-本项目由上海人工智能实验室、上海交通大学、华东师范大学、上海交通大学附属第九人民医院合作完成。联合研发团队由王延峰教授领衔，成员包括贺樑教授，[张娅](https://mediabrain.sjtu.edu.cn/yazhang/)教授、[王钰](https://mediabrain.sjtu.edu.cn/yuwang/)副教授、[王琳琳](https://faculty.ecnu.edu.cn/_s16/wll/main.psp)研究员，何悦教授团队（李然），欧阳泽田，邱易帅，蔡琰，张燮驰，杨宇辰，廖育生，郭逸秋等。与本项目相关的论文有(https://arxiv.org/pdf/2309.02077v1.pdf)。
+本项目由上海人工智能实验室、上海交通大学、华东师范大学、上海交通大学附属第九人民医院合作完成。联合研发团队由王延峰教授领衔，成员包括贺樑教授，[张娅](https://mediabrain.sjtu.edu.cn/yazhang/)教授、[王钰](https://mediabrain.sjtu.edu.cn/yuwang/)副教授、[王琳琳](https://faculty.ecnu.edu.cn/_s16/wll/main.psp)研究员，何悦教授团队（李然），欧阳泽田，邱易帅，蔡琰，张燮驰，杨宇辰，廖育生，郭逸秋等。
 
 
 
