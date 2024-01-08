@@ -2,7 +2,7 @@
 ## 🌈 更新
 
 
-* **[2023.12.29]** [论文](class/GenMedicalEval4.pdf) (Arxiv版本待审核)
+* **[2023.1.06]** 论文[https://services.arxiv.org/html/submission/5317646/view] (To Be Updated)
   
 <!-- vscode-markdown-toc-config
 	numbering=true
