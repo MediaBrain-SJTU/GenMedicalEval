@@ -2,7 +2,7 @@
 ## 🌈 更新
 
 
-* **[2023.1.06]** 论文[https://services.arxiv.org/html/submission/5317646/view] (To Be Updated)
+* **[2023.1.06]** 论文 (To Be Updated)
   
 <!-- vscode-markdown-toc-config
 	numbering=true
